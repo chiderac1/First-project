@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Christian"content="login page for Agro Pulse Ventures">
+    <meta name="Agro Pulse Ventures" discription="this is the offical login page for APV">
+    <link rel="icon" href="img/crop.ico" type="image/x-icon">
+    <title>Login page</title>
+</head>
+<body>
+    <p>
+        <h1>Welcome To <abbr title="Agro Pulse Ventures ">APV</abbr></h1>
+    </p>
+    <fieldset>
+        <h2>Login</h2>
+        <form action="index.html">
+            <p>
+            <label for="FirstName">FirstName:</label>
+            <input type="text" name="FirstName" id="FirstName"required autofocus autocorrect="on" placeholder="William">
+            </p>
+             <p>
+            <label for="LastName">LastName:</label>
+            <input type="text" name="LastName" id="LastName" required aautocorrect="on">
+            </p>
+             <p>
+            <label for="Phone No">Phone No:</label>
+            <input type="tel" name="Phone No" id="Phone No" required autocorrect="on" pattern="[0-9]{3}[0-9]{3}[0-9]{5}">
+            </p>
+             <p>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email"  required autocorrect="on" placeholder="example@gmail.com">
+            </p>
+             <p>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" required >
+            </p>
+            <p>
+                <label for="Date OF Birth">Date OF Birth</label>
+                <input type="number" name="date of birth" id="date of birth" min="1950" max="2020" step="1" required>
+            </p>
+            <div>
+            <p>
+            <label for="state">State</label>
+            <select name="state" id="state" required>
+                    <option value="Enugu">Enugu</option>
+                      <option value="abuja">Abuja</option> 
+                       <option value="lagos">Lagos</option>
+            </select>  
+        </p>
+        </div>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </fieldset>
+</body>
+</html>
